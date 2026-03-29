@@ -1,43 +1,39 @@
 #  Intelligent Traffic Management System using Prolog
 
-This project is a simple simulation of how traffic systems can be managed using logic instead of machine learning. It is built using Prolog and focuses on how vehicles can make decisions like moving or waiting based on traffic signals and road connections.
+This project is a simple simulation of a traffic system built using Prolog. It demonstrates how vehicles can make decisions such as moving or waiting based on traffic signals and road connections using rule-based logic.
 
-The idea behind this project is to show that not all AI systems need neural networks — some problems can be solved using rule-based logic in a clean and understandable way.
-
----
-
-##  About the Project
-
-In this system:
-
-* Roads are connected like a network
-* Vehicles are placed at different positions
-* Traffic signals control movement
-* Each vehicle decides whether to move or wait
-
-The decisions are made using Prolog rules, which makes the system easy to understand and modify.
+Unlike modern AI systems that use machine learning, this project uses logical rules to simulate intelligent behavior.
 
 ---
 
-##  How It Works
+##  What This Project Does
 
-1. Define roads (like `a → b → c`)
-2. Assign signals (green or red)
-3. Place vehicles on roads
-4. Run the simulation
-5. The system prints whether each car moves or waits
+* Simulates a small road network
+* Places vehicles at different locations
+* Uses traffic signals (red/green)
+* Decides whether vehicles move or wait
+* Prints the result step-by-step
 
 ---
 
-##  Running the Code
+##  Requirements
 
-You can run this project using any online Prolog compiler like:
+You only need a Prolog compiler. You can use:
 
-* OneCompiler
-* SWISH
+* Online: OneCompiler or SWISH
+* Offline: SWI-Prolog (optional)
 
-Just paste the code and run it.
-The output will automatically show the simulation steps.
+---
+
+##  How to Run the Project (Step-by-Step)
+
+###  Using OneCompiler 
+
+1. Go to https://onecompiler.com/prolog
+2. Delete any existing code
+3. Copy and paste the project code into the editor
+4. Click **Run**
+5. The output will be displayed automatically
 
 ---
 
@@ -54,25 +50,31 @@ car3 waiting
 
 ---
 
+## ⚙️ How It Works (Simple Explanation)
+
+* Roads are connected like: `a → b → c`
+* Vehicles start at certain positions
+* Signals decide movement
+* If signal is green → vehicle moves
+* If red → vehicle waits
+
+---
+
 ##  What I Learned
 
-While working on this project, I understood:
-
 * Basics of Prolog programming
-* How rule-based systems work
-* How decision-making can be implemented without machine learning
-* The difference between symbolic AI and modern AI approaches
+* Rule-based decision making
+* How AI can work without machine learning
+* Representing real-world systems using logic
 
 ---
 
 ##  Future Improvements
 
-Some things that can be added later:
-
-* Real-time vehicle movement
-* Changing traffic signals
-* Graphical interface (UI)
-* Smarter path selection
+* Add real-time movement of vehicles
+* Add changing traffic signals
+* Create a graphical interface
+* Improve decision-making logic
 
 ---
 
@@ -86,4 +88,5 @@ VIT Bhopal
 
 ##  Note
 
-This project was created as part of an academic assignment to demonstrate basic AI concepts using Prolog.
+This project was created as part of an academic assignment for Digital Literacy (CSA2001).
+
