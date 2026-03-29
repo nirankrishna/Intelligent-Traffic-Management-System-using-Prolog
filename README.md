@@ -20,8 +20,7 @@ Unlike modern AI systems that use machine learning, this project uses logical ru
 
 You only need a Prolog compiler. You can use:
 
-* Online: OneCompiler or SWISH
-* Offline: SWI-Prolog (optional)
+* Online: OneCompiler 
 
 ---
 
@@ -88,5 +87,5 @@ VIT Bhopal
 
 ##  Note
 
-This project was created as part of an academic assignment for Digital Literacy (CSA2001).
+This project was created as part of an academic assignment for Fundamentals of AI & ML (CSA2001).
 
