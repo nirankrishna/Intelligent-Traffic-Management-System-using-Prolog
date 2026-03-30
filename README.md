@@ -20,7 +20,7 @@ Unlike modern AI systems that use machine learning, this project uses logical ru
 
 You only need a Prolog compiler. You can use:
 
-* Online: OneCompiler 
+  OneCompiler 
 
 ---
 
@@ -49,7 +49,7 @@ car3 waiting
 
 ---
 
-## ⚙️ How It Works (Simple Explanation)
+##  How It Works (Simple Explanation)
 
 * Roads are connected like: `a → b → c`
 * Vehicles start at certain positions
